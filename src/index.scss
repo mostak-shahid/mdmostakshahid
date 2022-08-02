@@ -1,0 +1,11 @@
+@import url(./assets/fonts/biennale-font.css);
+@import "./mixing.scss";
+body {
+  font-family: "Biennale";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

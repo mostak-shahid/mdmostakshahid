@@ -12,7 +12,7 @@ const Header = () => {
                         <Nav.Link href="/about">About</Nav.Link>
                         <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/blog">Blog</NavDropdown.Item>
-                            <NavDropdown.Item href="/blog">Blog Single</NavDropdown.Item>
+                            <NavDropdown.Item href="/blog/asd">Blog Single</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
