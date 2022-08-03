@@ -10,6 +10,7 @@
         "subTitle": "Subtitle",
         "title": "Title",
         "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, odio.",
+        "class": "",
         "grid": "col-lg-3",
         "elements": [
           {
@@ -38,6 +39,7 @@
         "subTitle": "Subtitle2",
         "title": "Title2",
         "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, odio.",
+        "class": "bg-light",
         "grid": "col-lg-4",
         "elements": [
           {

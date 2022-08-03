@@ -1,9 +1,10 @@
 import React from 'react'
 import IconBox from '../IconBox/IconBox'
+import './Section.scss'
 
 const Section = (props) => {
     return (
-        <section className={["section", props.type?props.type:"template-1"].join(' ')}>
+        <section className={["section", props.type?props.type:"template-1", props.data.class].join(' ')}>
             <div className="section-wrapper">
                 <div className="container">
                     <div className="part-1 text-center">
