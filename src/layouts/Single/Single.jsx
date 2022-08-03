@@ -1,9 +1,13 @@
-import React from 'react'
-
-const Single = () => {
+import React from "react";
+import Banner from "../../components/Banner/Banner";
+import AllPageData from "../../page-data.json";
+const Single = (props) => {
+  const pageData = AllPageData[props.slug];
   return (
-    <div>Single</div>
-  )
-}
+    <>
+      <Banner title={pageData.banner.title} intro={pageData.banner.intro} type={pageData.banner.type}/>    
+    </>
+  );
+};
 
-export default Single
+export default Single;
