@@ -1,20 +1,17 @@
 import React from "react";
-
+import { FaHeart } from "react-icons/fa";
 const IconBox = (props) => {
   return (
-    <div class="mos-icon-box position-relative">
+    <div className="mos-icon-box position-relative">
         {/* mfn-icon-box-top mfn-icon-box-start||mfn-icon-box mfn-icon-box-bottom mfn-icon-box-center||mfn-icon-box mfn-icon-box-top mfn-icon-box-end */}
         {/* mfn-icon-box mfn-icon-box-left mfn-icon-box-center||mfn-icon-box mfn-icon-box-right mfn-icon-box-center */}
         {/* mfn-icon-box-move-up, mfn-icon-box-icon-scale, mfn-icon-box-box-scale,  */}
-      <div class="icon-wrapper">
-        <i class="far fa-file-code" aria-hidden="true"></i>
+      <div className="icon-wrapper">
+      <FaHeart />
       </div>
-      <div class="desc-wrapper">
-        <h4 class="title">Coding &amp; testing</h4>
-        <div class="desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus.
-        </div>
+      <div className="desc-wrapper">
+        <h4 className="title">{props.data.title}</h4>
+        <div className="intro" dangerouslySetInnerHTML={{__html:props.data.intro}} />
       </div>
     </div>
   );

@@ -4,6 +4,59 @@
       "title": "Icon Box",
       "intro": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse labore soluta atque rerum ea quae dolor, aliquid nulla provident sequi placeat doloribus exercitationem, quo temporibus illum, aspernatur asperiores assumenda quisquam.",
       "type": "template-1"
-    }
+    },
+    "sections": [
+      {
+        "subTitle": "Subtitle",
+        "title": "Title",
+        "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, odio.",
+        "grid": "col-lg-3",
+        "elements": [
+          {
+            "element": "IconBox",
+            "title": "This is the title",
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+          },
+          {
+            "element": "IconBox",
+            "title": "This is the title",
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+          },
+          {
+            "element": "IconBox",
+            "title": "This is the title",
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+          },
+          {
+            "element": "IconBox",
+            "title": "This is the title",
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+          }
+        ]
+      },
+      {
+        "subTitle": "Subtitle2",
+        "title": "Title2",
+        "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, odio.",
+        "grid": "col-lg-4",
+        "elements": [
+          {
+            "element": "IconBox",
+            "title": "This is the title",
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+          },
+          {
+            "element": "IconBox",
+            "title": "This is the title",
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+          },
+          {
+            "element": "IconBox",
+            "title": "This is the title",
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+          }
+        ]
+      }
+    ]
   }
 }
