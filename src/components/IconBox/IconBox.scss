@@ -1,0 +1,47 @@
+.mos-icon-box {
+  position: relative;
+  display: flex;
+  &.icon-align-none {
+    flex-direction: column;
+    &.icon-valign-bottom {
+      flex-direction: column-reverse;
+    }
+  }
+  &.icon-align-right {
+    flex-direction: row-reverse;
+  }
+  &.icon-align-right,
+  &.icon-align-left {
+    .desc-wrapper {
+      padding: 0 10px;
+    }
+    &.icon-valign-middle {
+      align-items: center;
+    }
+    &.icon-valign-bottom {
+      align-items: flex-end;
+    }
+  }
+  &.content-align-center {
+    text-align: center;
+    align-items: center;
+  }
+  &.content-align-right {
+    text-align: right;
+    align-items: flex-end;
+  }
+  .media-wrapper {
+    display: inline-block;
+    .icon-wrapper {
+      width: 90px;
+      height: 90px;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      line-height: 40px;
+      background-color: #ebf3f7;
+    }
+  }
+}

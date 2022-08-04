@@ -8,54 +8,91 @@
     "sections": [
       {
         "subTitle": "Subtitle",
-        "title": "Title",
+        "title": "Icon box: Left / Right",
         "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, odio.",
         "class": "",
-        "grid": "col-lg-3",
+        "grid": "col-lg-6 mb-4",
         "elements": [
           {
             "element": "IconBox",
             "title": "This is the title",
-            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+            "class": "icon-align-left icon-valign-top content-align-left",
+            "link": {
+              "to": "/about",
+              "text": "Read More",
+              "show": true
+            }
           },
           {
             "element": "IconBox",
             "title": "This is the title",
-            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+            "class": "icon-align-right icon-valign-top content-align-right",
+            "link": {
+              "to": "/about",
+              "text": "Read More",
+              "show": true
+            }
           },
           {
             "element": "IconBox",
             "title": "This is the title",
-            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+            "class": "icon-align-right icon-valign-middle content-align-right",
+            "link": {
+              "to": "/about",
+              "text": "Read More",
+              "show": false
+            }
           },
           {
             "element": "IconBox",
             "title": "This is the title",
-            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+            "class": "icon-align-left icon-valign-middle content-align-left",
+            "link": {
+              "to": "/about",
+              "text": "Read More",
+              "show": false
+            }
           }
         ]
       },
       {
         "subTitle": "Subtitle2",
-        "title": "Title2",
+        "title": "Icon box: Top / Bottom",
         "intro": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, odio.",
         "class": "bg-light",
-        "grid": "col-lg-4",
+        "grid": "col-lg-4 mb-4",
         "elements": [
           {
             "element": "IconBox",
             "title": "This is the title",
-            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+            "class": "icon-align-none icon-valign-top content-align-left",
+            "link": {
+              "to": "/about",
+              "text": "Read More",
+              "show": true
+            }
           },
           {
             "element": "IconBox",
             "title": "This is the title",
-            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+            "class": "icon-align-none icon-valign-bottom content-align-center",
+            "link": {
+              "to": "/about",
+              "text": "Read More",
+              "show": false
+            }
           },
           {
             "element": "IconBox",
             "title": "This is the title",
-            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus."
+            "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus.",
+            "class": "icon-align-none icon-valign-top content-align-right"
           }
         ]
       }
