@@ -1,5 +1,9 @@
 @import url(./assets/fonts/biennale-font.css);
 @import "./mixing.scss";
+:root {
+  --primary-color: #757575;
+  --primary-color-alt: #ffffff;
+}
 body {
   font-family: "Biennale";
   -webkit-font-smoothing: antialiased;

@@ -1,0 +1,61 @@
+@import "../../mixing.scss";
+.mos-article-box {
+  position: relative;
+  display: flex;
+  @include smoothTransition();
+  &.image-align-none {
+    flex-direction: column;
+    &.image-valign-bottom {
+      flex-direction: column-reverse;
+    }
+    .desc-wrapper {
+      padding: 10px 0;
+    }
+  }
+  &.image-align-right {
+    flex-direction: row-reverse;
+  }
+  &.image-align-right,
+  &.image-align-left {
+    .desc-wrapper {
+      padding: 0 10px;
+    }
+    &.image-valign-middle {
+      align-items: center;
+    }
+    &.image-valign-bottom {
+      align-items: flex-end;
+    }
+  }
+  &.content-align-center {
+    text-align: center;
+    align-items: center;
+  }
+  &.content-align-right {
+    text-align: right;
+    align-items: flex-end;
+  }
+  /*Design*/
+  &.basic-article-layout {
+    .media-wrapper {
+      .image-wrapper {
+        overflow: hidden;
+        img {
+          @include smoothTransition();
+        }
+      }
+    }
+    .desc-wrapper {
+      padding: 30px;
+      background-color: #eaeaea;
+    }
+    &:hover {
+      .image-wrapper {
+        img {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  /*Design*/
+}

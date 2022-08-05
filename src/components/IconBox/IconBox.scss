@@ -1,10 +1,15 @@
+@import "../../mixing.scss";
 .mos-icon-box {
   position: relative;
   display: flex;
+  @include smoothTransition();
   &.icon-align-none {
     flex-direction: column;
     &.icon-valign-bottom {
       flex-direction: column-reverse;
+    }
+    .desc-wrapper {
+      padding: 10px 0;
     }
   }
   &.icon-align-right {
@@ -30,6 +35,47 @@
     text-align: right;
     align-items: flex-end;
   }
+  /*Design*/
+  &.hover-media-box {
+    padding: 40px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dcdfec;
+    border-width: 0 0 1px 0;
+    border-radius: 5px 5px 0 0;
+    &:hover {
+      background-color: var(--primary-color);
+      color: var(--primary-color-alt);
+    }
+  }
+  &.moving-media-box {
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px 0px rgb(0 0 0 / 0);
+    &:hover {
+      box-shadow: 0 10px 30px 0px rgb(66 68 90 / 10%);
+      transform: translateY(-10px);
+    }
+  }
+  &.hover-icon-media-box {
+    .icon-wrapper {
+      @include smoothTransition();
+    }
+    &:hover {
+      box-shadow: 0 5px 30px 0 rgb(0 0 0 / 5%);
+      .icon-wrapper {
+        transform: scale(1.1);
+      }
+    }
+  }
+  &.hover-box-media-box {
+    &:hover {
+      transform: scale(1.1);
+      z-index: 9;
+    }
+  }
+  /*Design*/
+
   .media-wrapper {
     display: inline-block;
     .icon-wrapper {

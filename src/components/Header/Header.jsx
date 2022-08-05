@@ -18,8 +18,8 @@ const Header = () => {
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Elements" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/icon-box">Icon Block</NavDropdown.Item>
-                            <NavDropdown.Item href="/blog/asd">Blog Single</NavDropdown.Item>
+                            <NavDropdown.Item href="/icon-box">Icon Box</NavDropdown.Item>
+                            <NavDropdown.Item href="/article-box">Article Box</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>

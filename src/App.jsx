@@ -9,6 +9,7 @@ import NotFound from "./layouts/NotFound/NotFound";
 import Search from "./layouts/Search/Search";
 import Single from "./layouts/Single/Single";
 function App() {
+  const pages = ["icon-box", "article-box"];
   return (
     <div className="App">
       <Header />
@@ -23,7 +24,13 @@ function App() {
           <Route path=":keyword" element={<Search />} />
         </Route>
         <Route path="/about" element={<Single />} />
-        <Route path="/icon-box" element={<Single slug="icon-box" />} />
+        {
+        pages.map((item, index)=>(
+          <Route path={["/", item].join('')} element={<Single slug={item} />} key={index} />
+        ))
+        }
+        {/* <Route path="/icon-box" element={<Single slug="icon-box" />} />
+        <Route path="/article-box" element={<Single slug="article-box" />} /> */}
         {/*pages.map((item, index) => (
           <Route
             path={item.post_name}
