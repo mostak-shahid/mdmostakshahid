@@ -14,7 +14,7 @@ const ArticleBox = (props) => {
         </div>
       </div>
       <div className="desc-wrapper">
-        <div class="info"><div class="meta">05/JAN/2020 - BY SMITH</div></div>
+        <div className="info"><div className="meta">05/JAN/2020 - BY SMITH</div></div>
         <h4 className="title">{props.data.title}</h4>
         <div
           className="intro"
